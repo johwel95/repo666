@@ -1,0 +1,7 @@
+echo "# repo666" >> README.md
+git init
+git add README.md
+git commit -m "test nepovolene znaky"
+git branch -M main
+git remote add origin https://github.com/johwel95/repo666.git
+git push -u origin main
